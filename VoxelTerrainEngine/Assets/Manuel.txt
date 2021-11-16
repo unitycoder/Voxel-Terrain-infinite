@@ -1,0 +1,45 @@
+
+
+
+public static bool RaycastVoxels(Ray ray, out RaycastHit hitinfo,float distance,LayerMask mask )
+Basic raycast with x,y,z values rounded to integer
+
+
+public static int  FindMaterial(Vector3 voxel){
+Finds a voxel type which returns a value of 0 to 8 , 8 being bedrock (cant be deleted) 
+also returns -1 for there being nothing there
+
+public static void SetVoxelType(Vector3 voxel,byte value)
+same as before but setting instead of getting 
+
+public VoxelChunk FindChunk(Vector3 pos) useful for finding which chunk you are in for doing various work
+what I do is either oncollision enter or raycast hit then get collider.Transform
+use this functions returned chunk to run other functions like:
+chunk.AddPlant(Vector3 voxelPos, int id) id = number of a plant make sure this number is not greater than the number of plants 
+chunk.HasPlant(Vector3 voxelPos) returns true if theres a plant or grass here grass is different from plants 
+chunk.findPlant(Vector3 voxelPos) finds a plant near the location within 1 metre returns the id
+chunk.DestroyPlant(Vector3 voxelPos) destroys the plant with id 
+
+public VoxelChunk FindTreeChunk(Vector3 pos) this useful for finding a chunk that has a tree on it , I use a seperate chunk for trees 
+Uses: raycast a tree get the collider.Transform.parent , make sure tree has collider on upmost transform then its parent will be the tree chunk
+
+public static bool SetVoxels(Vector3 voxel,float value)
+voxel = position from RaycastVoxels , 0 = full , 255 = empty
+returns true if set 
+public bool SetVoxel(List<Vector3> hitpoint, List<float> value)
+same as above but using a list of points useful for setting lots of voxels in an area to a certain value its recommended to not do to many at once as its not optimised(Spelling?)
+
+public static float GetVoxelsValue(Vector3 voxel)
+returns the value of the voxel 
+
+public static int GetBiome(Vector3 voxel)
+returns the biome at a position 
+
+public void SaveTerrains()
+sets a bool to save terrains on threads 
+way to save the terrains that were edited , terrains that have their lods changed by moving further away are save automatically 
+
+public void SaveTerrain()
+same as before but does it immediately may slow down cause lag spike possibly even a freeze
+
+The rest of the functions are all used by the engine to do various things and will be labeled at a later date
