@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: fern_v2Mat
-  m_Shader: {fileID: 4800000, guid: 4a95eea9ef46dde448b938714eb1ea97, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8cba5846253e492469495be0d0874471, type: 3}
   m_ShaderKeywords: EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF _NORMALMAP
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -117,7 +117,7 @@ Material:
     - _WindQuality: 5
     - _ZWrite: 1
     - _normalInten: 1
-    - distLimit: 1.13
+    - distLimit: 1.53
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}

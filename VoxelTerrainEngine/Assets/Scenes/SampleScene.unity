@@ -123,6 +123,65 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &192881111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 192881114}
+  - component: {fileID: 192881113}
+  - component: {fileID: 192881112}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!182 &192881112
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192881111}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!114 &192881113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192881111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bdf1c6afcd1c5e4ea28113cd6a3278e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Zone: {fileID: 192881112}
+--- !u!4 &192881114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192881111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1030.6252, y: 468.4057, z: -202.37561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495217570
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +284,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 250, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2035150451}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -353,7 +413,7 @@ GameObject:
   - component: {fileID: 1095291592}
   - component: {fileID: 1095291593}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,8 +469,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: d9e9fb97b91d62e49b70776efdaffd37, type: 3}
   - {fileID: 2800000, guid: d83a61ff14ce72f418372d2d6032cef7, type: 3}
   - {fileID: 2800000, guid: d9e9fb97b91d62e49b70776efdaffd37, type: 3}
-  - {fileID: 2800000, guid: d9e9fb97b91d62e49b70776efdaffd37, type: 3}
-  - {fileID: 2800000, guid: 239a0c6e656df274785af1820d259615, type: 3}
+  - {fileID: 2800000, guid: 2fed4d1599611314a8d571bff9302e22, type: 3}
+  - {fileID: 2800000, guid: 94652c382ece85249ac62af422629612, type: 3}
   - {fileID: 2800000, guid: 2ad04d2bc422ac34fb3689ba31b6ed19, type: 3}
   - {fileID: 2800000, guid: f4c98f2311db7d2409d3f0660eb38f3e, type: 3}
   - {fileID: 2800000, guid: 94652c382ece85249ac62af422629612, type: 3}
@@ -428,7 +488,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
-  SnowLine: 250
+  SnowLine: 402
   grassFrequency: 5
   TreeFrequency: 5
   minLod: 0
@@ -459,7 +519,7 @@ MonoBehaviour:
   TreesTropics:
   - {fileID: 149316, guid: 5f66f8e02dea82e4781c20059df75cd2, type: 3}
   TreesSnow:
-  - {fileID: 149316, guid: 5f66f8e02dea82e4781c20059df75cd2, type: 3}
+  - {fileID: 100000, guid: 1643ed7b51c20ca4d837455f50f9ce89, type: 3}
   Rocks: []
   Grass:
   - {fileID: 312009816332477212, guid: 8d502485fea72024984f29a3dba7c1ed, type: 3}
@@ -474,8 +534,8 @@ MonoBehaviour:
   - {fileID: 312009816332477212, guid: 8d502485fea72024984f29a3dba7c1ed, type: 3}
   - {fileID: 114186, guid: 690b1cde85901124291fdc07f4426626, type: 3}
   GrassSnow:
-  - {fileID: 312009816332477212, guid: 8d502485fea72024984f29a3dba7c1ed, type: 3}
-  - {fileID: 114186, guid: 690b1cde85901124291fdc07f4426626, type: 3}
+  - {fileID: 312009816332477212, guid: 5135ad19a654e0e45a285b897dbdb8f7, type: 3}
+  - {fileID: 1000013488748416, guid: 3efb217ff85a0ae44af26ebc161223f4, type: 3}
   MeshGrass: []
   MatGrass: []
   GrassMesh: []
@@ -492,7 +552,7 @@ MonoBehaviour:
   - 0.5
   - 1
   Parent: {fileID: 0}
-  m_surfaceSeed: 4
+  m_surfaceSeed: 1122185
   m_voxelWidth: 16
   ParentPos: {x: 0, y: 0, z: 0}
   CanContinue: 0
@@ -503,3 +563,46 @@ MonoBehaviour:
   target: []
   mainCam: {fileID: 0}
   GCTIme: 0
+--- !u!1 &2035150450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035150451}
+  - component: {fileID: 2035150452}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035150451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035150450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 495217574}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035150452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035150450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377f5ba3608ce0c4695ff27ff09633d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

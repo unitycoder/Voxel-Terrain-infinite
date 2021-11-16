@@ -80,8 +80,6 @@
     <Compile Include="Assets\VoxelTerrain\VoxelChunk.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <None Include="Assets\shaders\WavingGrass.shader" />
     <None Include="Assets\shaders\Terrain.shader" />
     <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
@@ -89,24 +87,18 @@
     <None Include="Assets\shaders\TestShader 1.shader" />
     <None Include="Assets\VoxelTerrain\Shaders\sh_triPlanar.shader" />
     <None Include="Assets\VoxelTerrain\Shaders\WavingGrass.shader" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
     <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
     <None Include="Assets\VoxelTerrain\Textures\RandomShader.shader" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
     <None Include="Assets\VoxelTerrain\Shaders\Triplanar.shader" />
     <None Include="Assets\shaders\translucentSkinReal.shader" />
     <None Include="Assets\shaders\shader.shader" />
-    <None Include="Assets\Mirror\Version.txt" />
     <None Include="Assets\shaders\obstaceleShader.shader" />
-    <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\VoxelTerrain\Shaders\sh_triPlanar 1.shader" />
     <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
     <None Include="Assets\shaders\translucantskin.shader" />
     <None Include="Assets\shaders\TestShader.shader" />
-    <None Include="Assets\Mirror\Notice.txt" />
     <None Include="Assets\shaders\WavingGrass 1.shader" />
     <None Include="Assets\VoxelTerrain\Grassetc\plants2\fern2\readme.txt" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
     <None Include="Assets\VoxelTerrain\Shaders\Tri-planar.shader" />
     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
     <None Include="Assets\shaders\wavingGrassInvertedNormals.shader" />
@@ -344,17 +336,8 @@
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.0.0-pre.5\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -370,9 +353,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -766,18 +746,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Mirror.csproj">
-      <Project>{B446F8F8-093C-C784-D368-AD7CE0218109}</Project>
-      <Name>Mirror</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{BE66828E-FD24-0A69-4E4F-50320F2B2241}</Project>
-      <Name>kcp2k</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{884DF399-73E4-7688-CA1A-6988FBC6FF84}</Project>
-      <Name>Mirror.Examples</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamples.csproj">
       <Project>{461A1F6E-1835-05F4-6F38-BCE1032EC67F}</Project>
       <Name>NavMeshComponentsExamples</Name>
@@ -790,41 +758,13 @@
       <Project>{42F4094B-E184-8D8C-118A-5217D462A28D}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{BE425823-ADB5-D9AE-342F-126EE0BDDB2B}</Project>
-      <Name>Mirror.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{ED0EB9C1-6998-A9E7-949C-C7D8B3C4BFB2}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{DAFB883F-64F1-9A26-A6EA-037054455C7B}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{83F9D8D4-4B2C-2CC9-D53F-720AEB58B8C7}</Project>
-      <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
       <Project>{951DAC98-8E9D-1102-62AB-48702E1BAAB6}</Project>
       <Name>NavMeshComponentsExamplesEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{E3DE065D-DEB2-4C90-75C6-D8549667F4D7}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{7D741798-B022-03A8-D83A-E855DC63802C}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{95731A82-867F-72AB-1C78-8C8F0E3BEF8C}</Project>
-      <Name>SimpleWebTransport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{C2DD0EAB-0028-1526-EE86-AB221A1A584B}</Project>
-      <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{A2875D52-25E6-8CCE-D0E3-855D34898146}</Project>

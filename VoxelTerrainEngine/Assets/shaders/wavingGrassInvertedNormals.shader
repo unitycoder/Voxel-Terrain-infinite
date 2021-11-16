@@ -2,7 +2,7 @@
 
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
-Shader "Details/WavingPlants Inverted Normal" {
+Shader "Details/WavingPlants CullBack" {
 	Properties{
 		_MainTex("Base (RGB) Alpha (A)", 2D) = "white" {}
 	//_WaveAndDistance ("Wave and distance", Vector) = (12, 3.6, 1, 1)
@@ -19,7 +19,7 @@ _Color("Color", Color) = (0,0,255,0)
 			"RenderType" = "Grass"
 			}
 			LOD 200
-			   Cull Off
+
 
 		CGPROGRAM
 	// Upgrade NOTE: excluded shader from OpenGL ES 2.0 because it uses non-square matrices
@@ -137,7 +137,7 @@ _Color("Color", Color) = (0,0,255,0)
 		distort.xyz += waveMove.xyz;
 
 
-		v.normal = -normalize(v.normal);
+		v.normal = normalize(v.normal);
 		v.vertex.xyz = normalize(distort.xyz) * origLength;
 	}
 

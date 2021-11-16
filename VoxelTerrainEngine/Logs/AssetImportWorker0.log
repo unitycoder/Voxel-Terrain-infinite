@@ -15,11 +15,11 @@ C:/Users/Aquilla/Documents/GitHub/Voxel-terrain-Engine-planet-version/VoxelTerra
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50216
+50367
 Successfully changed project path to: C:/Users/Aquilla/Documents/GitHub/Voxel-terrain-Engine-planet-version/VoxelTerrainEngine
 C:/Users/Aquilla/Documents/GitHub/Voxel-terrain-Engine-planet-version/VoxelTerrainEngine
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,1729 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002072 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1652ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (804ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.3 MB.
+System memory in use after: 105.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 4.187900 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.050000 ms MarkObjects: 3.751600 ms  DeleteObjects: 0.142000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.864875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3668ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (141ms)
+		EndReloadAssembly (3366ms)
+			LoadAssemblies (1606ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1092ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 3.469400 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.044700 ms MarkObjects: 3.111100 ms  DeleteObjects: 0.100500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/VoxelTerrain/Grassetc/weeds/02/translucency.tga
+  artifactKey: Guid(df9b267ee90732e4c98f0dfec01bfee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/02/translucency.tga using Guid(df9b267ee90732e4c98f0dfec01bfee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805d37f41e35981175771d93947e38f') in 1.760904 seconds 
+  Import took 1.816972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE.imposter_normals.dds
+  artifactKey: Guid(b8ff11479a50e4249a723ab0010b696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE.imposter_normals.dds using Guid(b8ff11479a50e4249a723ab0010b696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8942e84e1ae5057c0fde25dce56ef1d') in 0.403684 seconds 
+  Import took 0.447902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/03/translucency.tga
+  artifactKey: Guid(f9c2526f1fcf1f5478d07b068ccada08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/03/translucency.tga using Guid(f9c2526f1fcf1f5478d07b068ccada08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df3d7184e6eb1e2482df53ccfb93a9e') in 0.090787 seconds 
+  Import took 0.121640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE.imposter_normals.dds
+  artifactKey: Guid(8799dbba9bc2c884b8e99b5ed8108d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE.imposter_normals.dds using Guid(8799dbba9bc2c884b8e99b5ed8108d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f24a6e3304cef0883de242acf2ba278') in 0.257037 seconds 
+  Import took 0.260790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/PhilLeaf01.dds
+  artifactKey: Guid(d531347c53831e64f8b71da90a464e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/PhilLeaf01.dds using Guid(d531347c53831e64f8b71da90a464e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2033f187f423f50ca150b76f3c8c3a54') in 0.215504 seconds 
+  Import took 0.218826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm03.dae.imposter_normals.dds
+  artifactKey: Guid(7d113dd7d64e1ba4cb9d93ff478d0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm03.dae.imposter_normals.dds using Guid(7d113dd7d64e1ba4cb9d93ff478d0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c70637660e79cfcf5c82f4ff69cb8c3') in 0.448048 seconds 
+  Import took 0.550211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE.imposter.dds
+  artifactKey: Guid(dedd51a7bdb7a3740947cf34d6361d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE.imposter.dds using Guid(dedd51a7bdb7a3740947cf34d6361d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3e55863fd8c636330b3157fc951d2b') in 0.384271 seconds 
+  Import took 0.409737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/05/preview.jpg
+  artifactKey: Guid(3dc64521af8f9e4478ed100f04a124cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/05/preview.jpg using Guid(3dc64521af8f9e4478ed100f04a124cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ed7bbd9aad9e968549a4af099fc19b') in 0.701591 seconds 
+  Import took 0.729774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/02/preview.jpg
+  artifactKey: Guid(75aca74fa0cf48e469b99edd8036fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/02/preview.jpg using Guid(75aca74fa0cf48e469b99edd8036fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c94c32ba688d8c85e2a5e81c7b707') in 0.113428 seconds 
+  Import took 0.134909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE.imposter.dds
+  artifactKey: Guid(dad345548239bee42bba7067555252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE.imposter.dds using Guid(dad345548239bee42bba7067555252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9adc406d16d36c64b3553f491350138') in 0.281631 seconds 
+  Import took 0.323380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01A.png
+  artifactKey: Guid(ffb2f7e77febe2b4b8d2a2041426e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01A.png using Guid(ffb2f7e77febe2b4b8d2a2041426e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4633fc8edad87a725411434623aca') in 0.155963 seconds 
+  Import took 0.187644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE.imposter_normals.dds
+  artifactKey: Guid(0a83e0c55c1bd0040a94472d058af727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE.imposter_normals.dds using Guid(0a83e0c55c1bd0040a94472d058af727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077e0145e757e532d1280dce926a1637') in 0.326795 seconds 
+  Import took 0.376807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05 1.png
+  artifactKey: Guid(215ccba6b0c5d7d40a12cab921a3fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05 1.png using Guid(215ccba6b0c5d7d40a12cab921a3fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b523d63552585775de0a536c748a7') in 0.292924 seconds 
+  Import took 0.327375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/PalmTrunkMap01.dds
+  artifactKey: Guid(a6c0359e17e1c4242aaab403d432c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/PalmTrunkMap01.dds using Guid(a6c0359e17e1c4242aaab403d432c589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b09c4a67536c2dae54e8f319aabafbe') in 0.334199 seconds 
+  Import took 0.382261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/CopalTree/Vines02.dds
+  artifactKey: Guid(739817701c120774c93b82f83bca536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/CopalTree/Vines02.dds using Guid(739817701c120774c93b82f83bca536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c76acecaee45e3c239b89d97bbad74') in 0.193391 seconds 
+  Import took 0.197511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05_SPEC.png
+  artifactKey: Guid(3f4a3164649bab944b0f8efc540776c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05_SPEC.png using Guid(3f4a3164649bab944b0f8efc540776c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c47b1d27f9f6eeeeca418ccdf473e22') in 0.159239 seconds 
+  Import took 0.206425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.dds
+  artifactKey: Guid(f621e1282ea3b2c449107379d82520c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.dds using Guid(f621e1282ea3b2c449107379d82520c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbb0f7b254fe87e45532a8ede703aa0') in 0.127799 seconds 
+  Import took 0.131673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05.dds
+  artifactKey: Guid(c3602a89a4747d242a28364067542ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05.dds using Guid(c3602a89a4747d242a28364067542ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21da4177d2f2a4069de81a4a21c5c95') in 0.144604 seconds 
+  Import took 0.162256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/02/specular.tga
+  artifactKey: Guid(9c2040e250a45ad49b78b30d5d503870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/02/specular.tga using Guid(9c2040e250a45ad49b78b30d5d503870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057d4fe1b3498501a012516e97ac1693') in 0.245763 seconds 
+  Import took 0.322851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/04/preview.jpg
+  artifactKey: Guid(5611e71a1785906418d63055f8d43b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/04/preview.jpg using Guid(5611e71a1785906418d63055f8d43b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0720078aaee328ae41da9e16239949') in 0.241484 seconds 
+  Import took 0.244659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05.png
+  artifactKey: Guid(c5ab31e835f29cd44abbde35f0185fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm05.png using Guid(c5ab31e835f29cd44abbde35f0185fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6652ba51a592574c5da8419e088b54') in 0.198402 seconds 
+  Import took 0.216002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/04/specular.tga
+  artifactKey: Guid(6e1be6a0ac706a842b125dd0c51558b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/04/specular.tga using Guid(6e1be6a0ac706a842b125dd0c51558b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3461b2f87e8a62ccc51956e3ce1a63cc') in 0.133430 seconds 
+  Import took 0.136989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/01/preview.jpg
+  artifactKey: Guid(6ff39bc8a3e0940478fd2f67cd234922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/01/preview.jpg using Guid(6ff39bc8a3e0940478fd2f67cd234922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0b0c76ad46f03a89ba61ffe8b0fa64') in 0.140755 seconds 
+  Import took 0.171596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/03/preview.jpg
+  artifactKey: Guid(d8e789b1c92a5464ba808e464ead9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/03/preview.jpg using Guid(d8e789b1c92a5464ba808e464ead9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d80c958cad370c71350f723784050a') in 0.167026 seconds 
+  Import took 0.170245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE.imposter.dds
+  artifactKey: Guid(df3af3fe7e05bf644afd8db243c73d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE.imposter.dds using Guid(df3af3fe7e05bf644afd8db243c73d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc934619310b9e17dd0b7a2de98c25e7') in 0.327490 seconds 
+  Import took 0.365731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.492984 seconds.
+  path: Assets/VoxelTerrain/Textures/SurfaceTextures/snowD.png
+  artifactKey: Guid(2fed4d1599611314a8d571bff9302e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Textures/SurfaceTextures/snowD.png using Guid(2fed4d1599611314a8d571bff9302e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6406b617e9312f1902388807c9221b7e') in 0.053954 seconds 
+  Import took 0.118804 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1732ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (1019ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 4.227900 ms (FindLiveObjects: 0.214200 ms CreateObjectMapping: 0.054500 ms MarkObjects: 3.859600 ms  DeleteObjects: 0.097800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.379853 seconds.
+  path: Assets/VoxelTerrain/Textures/SurfaceTextures/snowD.png
+  artifactKey: Guid(2fed4d1599611314a8d571bff9302e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Textures/SurfaceTextures/snowD.png using Guid(2fed4d1599611314a8d571bff9302e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5ee8976056104442842ffdcaea4422') in 0.047638 seconds 
+  Import took 0.050781 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1638ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1433ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 3.780800 ms (FindLiveObjects: 0.236100 ms CreateObjectMapping: 0.047200 ms MarkObjects: 3.380400 ms  DeleteObjects: 0.115100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1592ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (723ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 3.659100 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.051500 ms MarkObjects: 3.273400 ms  DeleteObjects: 0.117100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2357ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2153ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1324ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 3.907200 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.053800 ms MarkObjects: 3.531200 ms  DeleteObjects: 0.102800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174.224063 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/CopalTree
+  artifactKey: Guid(fcff45a6e37cede4496354514110b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/CopalTree using Guid(fcff45a6e37cede4496354514110b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317dfc6b2d4141cea9476f99c40326f2') in 0.556667 seconds 
+  Import took 1.046199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.881550 seconds.
+  path: Assets/VoxelTerrain/Grassetc
+  artifactKey: Guid(c592b14ab74c21d41a964f7839851888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc using Guid(c592b14ab74c21d41a964f7839851888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0382f056bfa91afbfdeebb4fd1046dc') in 0.039837 seconds 
+  Import took 0.229733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.538360 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2
+  artifactKey: Guid(4830af83132e6f943b4c42809dddb859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2 using Guid(4830af83132e6f943b4c42809dddb859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbd5de9c284d6ff062005eac4dcba93') in 0.104813 seconds 
+  Import took 0.109409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.645420 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack
+  artifactKey: Guid(adb8e4cd7cc468a43a3dc4a9e56ab863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack using Guid(adb8e4cd7cc468a43a3dc4a9e56ab863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4871bcc248c3360968fd28948806c') in 0.059118 seconds 
+  Import took 0.134728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.png
+  artifactKey: Guid(08ce4b427e968e84294eb2f08f3d3474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.png using Guid(08ce4b427e968e84294eb2f08f3d3474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73e814b39deb849f57f1160b9f7445e') in 0.048099 seconds 
+  Import took 0.112457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_4.jpg
+  artifactKey: Guid(91abb315dc191834796a1df4908edb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_4.jpg using Guid(91abb315dc191834796a1df4908edb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff62782002efde70f106b1619d91f89') in 0.075983 seconds 
+  Import took 0.080411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_5.jpg
+  artifactKey: Guid(465b2b8a89e5d3144b4f99f6bfc8ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_5.jpg using Guid(465b2b8a89e5d3144b4f99f6bfc8ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b29cdc504a79a5147ed992aa6ed26c3') in 0.055530 seconds 
+  Import took 0.059506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.fbx
+  artifactKey: Guid(6326221bf5c84684f8e96e240e737f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.fbx using Guid(6326221bf5c84684f8e96e240e737f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a827a328ea312945690a50105f27930') in 0.978336 seconds 
+  Import took 0.983453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.jpg
+  artifactKey: Guid(52f434f65df49db40b35977c87e97c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.jpg using Guid(52f434f65df49db40b35977c87e97c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb896c8c8cc560987ca08f14765e6e9') in 0.041161 seconds 
+  Import took 0.044890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.fbx
+  artifactKey: Guid(eb24d6a332996614b9b614be5bc88594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.fbx using Guid(eb24d6a332996614b9b614be5bc88594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79affb137031ef1a8559ac5ff1453f2e') in 0.152848 seconds 
+  Import took 0.156400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_5.fbx
+  artifactKey: Guid(22d8e3a6f4b9dd841a11fb199041c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_5.fbx using Guid(22d8e3a6f4b9dd841a11fb199041c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6649de7637df81924529c1e6b469943e') in 0.072775 seconds 
+  Import took 0.076680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.prefab
+  artifactKey: Guid(7fa119917b3427a4c86530b3461e009a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.prefab using Guid(7fa119917b3427a4c86530b3461e009a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0a4068d1cc9e5343df48a39f28948') in 0.113951 seconds 
+  Import took 0.152544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_3.jpg
+  artifactKey: Guid(136ab4f279e8a4a4f9d295d3da612493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_3.jpg using Guid(136ab4f279e8a4a4f9d295d3da612493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521b8e437c4f30397065b1081d4f706') in 0.029561 seconds 
+  Import took 0.032783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx
+  artifactKey: Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx using Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa89b88c58cfb87074ea1afe94d955c') in 0.051067 seconds 
+  Import took 0.083952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_3.fbx
+  artifactKey: Guid(c066bd19d6850e04ba72326fcd7a30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_3.fbx using Guid(c066bd19d6850e04ba72326fcd7a30a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877ee870a472d87797d3ea8098f3bf9f') in 0.051391 seconds 
+  Import took 0.142062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.jpg
+  artifactKey: Guid(79505328b641fd845856bb071fa85368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_2.jpg using Guid(79505328b641fd845856bb071fa85368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad926224c738688ff322cc0babdd01a') in 0.025722 seconds 
+  Import took 0.063755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_4.fbx
+  artifactKey: Guid(9c52c756d09c5c14397efe1bcef5c655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_4.fbx using Guid(9c52c756d09c5c14397efe1bcef5c655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6361065ccb827a4ad759a42bc8d6b9f9') in 0.361005 seconds 
+  Import took 0.404321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/spruceBlue.prefab
+  artifactKey: Guid(9679cc184df927a4692135a7b88eeee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/spruceBlue.prefab using Guid(9679cc184df927a4692135a7b88eeee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162ace678fddfa5a1191fa5c5cbdff4d') in 0.187681 seconds 
+  Import took 0.235135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.jpg
+  artifactKey: Guid(c6d3959ad00e4ac40841bb8c3a152a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_6.jpg using Guid(c6d3959ad00e4ac40841bb8c3a152a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4412a76129756d9312b9d850070a0320') in 0.035888 seconds 
+  Import took 0.039889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.069475 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2.tga
+  artifactKey: Guid(eea49e58f7902cf42b49afa7210be904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2.tga using Guid(eea49e58f7902cf42b49afa7210be904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dad2b034c45669cc8d41a66b2b96df2') in 0.159891 seconds 
+  Import took 0.164768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015727 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2.tga
+  artifactKey: Guid(eea49e58f7902cf42b49afa7210be904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2.tga using Guid(eea49e58f7902cf42b49afa7210be904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dad2b034c45669cc8d41a66b2b96df2') in 0.095692 seconds 
+  Import took 0.099409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.848036 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceBark.tga
+  artifactKey: Guid(f5705e15db8f7ea408e7d18582e845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceBark.tga using Guid(f5705e15db8f7ea408e7d18582e845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6476a339b22c8124766d440f5d0e0e35') in 0.050194 seconds 
+  Import took 0.061009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Cones.tga
+  artifactKey: Guid(5a22c4b220be37749b9d37f9258382ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Cones.tga using Guid(5a22c4b220be37749b9d37f9258382ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe869150df8922b3cc910a23e7fa4377') in 0.171990 seconds 
+  Import took 0.176507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Spec.tga
+  artifactKey: Guid(2c5cbd2ee189f7c43b84b2bcba39072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Spec.tga using Guid(2c5cbd2ee189f7c43b84b2bcba39072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b5563e695cf32a1392cad2a5e5a2b1') in 0.208342 seconds 
+  Import took 0.213704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Normal.tga
+  artifactKey: Guid(19a18f7dafe53354c8cb67a90848837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Normal.tga using Guid(19a18f7dafe53354c8cb67a90848837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cc7bc491fb10f2c39fbc8d7cf79876') in 0.022622 seconds 
+  Import took 0.025512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Spec.tga
+  artifactKey: Guid(dd4ba657de393ff49a9a2aa43984441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Spec.tga using Guid(dd4ba657de393ff49a9a2aa43984441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b167f067cecf45c3505028d05128c43') in 0.058248 seconds 
+  Import took 0.062462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1.tga
+  artifactKey: Guid(e3a3bfcaf15b2474e8c72350e36b9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1.tga using Guid(e3a3bfcaf15b2474e8c72350e36b9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8594a823cfde4d0256e754fbbe5cdb49') in 0.074019 seconds 
+  Import took 0.079404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Branches_01.tga
+  artifactKey: Guid(474a2e84410778d44bd110939d079517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Branches_01.tga using Guid(474a2e84410778d44bd110939d079517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec42a7ec729597ce0b053898817411e') in 0.149420 seconds 
+  Import took 0.153272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Cones_Normal.tga
+  artifactKey: Guid(906464cbfb070c947b4396cd6fe2432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Cones_Normal.tga using Guid(906464cbfb070c947b4396cd6fe2432d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a83572fe7cd34e15cbcdd6cd041ac37') in 0.084694 seconds 
+  Import took 0.088131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Cones_Normal.tga
+  artifactKey: Guid(30edece10df9cff4895626ea4b374a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_1_Cones_Normal.tga using Guid(30edece10df9cff4895626ea4b374a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75596de3ad4215344c9370057a7194ec') in 0.086761 seconds 
+  Import took 0.089825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Cones.tga
+  artifactKey: Guid(c8466f26f0e956d4bb993c225f043d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Cones.tga using Guid(c8466f26f0e956d4bb993c225f043d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408a6253da1321b62d34031bc51a6b77') in 0.079766 seconds 
+  Import took 0.082859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Cap_04_Normal.tga
+  artifactKey: Guid(134f837f1ad922c49bab2a1e92378a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Cap_04_Normal.tga using Guid(134f837f1ad922c49bab2a1e92378a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128bf866bd345149853675ee226b66c2') in 0.124615 seconds 
+  Import took 0.127778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Cap_04.tga
+  artifactKey: Guid(a714f8cf6a5602146992f20629f03b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Cap_04.tga using Guid(a714f8cf6a5602146992f20629f03b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea56a34502a841e90b70a5fc83478d0f') in 0.046025 seconds 
+  Import took 0.050697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceBark_Normal.tga
+  artifactKey: Guid(41fd66807bf016848974a682fbc5271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceBark_Normal.tga using Guid(41fd66807bf016848974a682fbc5271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a82bb112061f8eb455d974490a2f5d') in 0.163145 seconds 
+  Import took 0.173424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Branches_01_Normal.tga
+  artifactKey: Guid(6c1f92ca685f73b4b917bb6a330593c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/Branches_01_Normal.tga using Guid(6c1f92ca685f73b4b917bb6a330593c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53b7374c41b8b987a30f070bcaad898') in 0.217476 seconds 
+  Import took 0.221724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Normal.tga
+  artifactKey: Guid(546ec3736eeec1b4f905871b3e658e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/Textures/BlueSpruceNeedles_2_Normal.tga using Guid(546ec3736eeec1b4f905871b3e658e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6ec40ddb320acaf59f259036c690d5') in 0.024258 seconds 
+  Import took 0.029060 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3220ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2766ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (661ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1326ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.6 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 8.276800 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.047500 ms MarkObjects: 7.890200 ms  DeleteObjects: 0.107700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.727631 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx
+  artifactKey: Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx using Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af53813ec950ef686e312621f9809e5') in 0.141106 seconds 
+  Import took 0.145036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.776851 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx
+  artifactKey: Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx using Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ebda41549c59927202d788c025c6b') in 0.042663 seconds 
+  Import took 0.046904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2193ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1894ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (502ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (986ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 4.737700 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.047900 ms MarkObjects: 4.305900 ms  DeleteObjects: 0.134300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.805240 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx
+  artifactKey: Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/BlueSpruce Tree Pack/BlueSpruce_1.fbx using Guid(1643ed7b51c20ca4d837455f50f9ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318c4c54dd86aad58383e574b9ad438') in 0.178759 seconds 
+  Import took 0.213512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2471ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2150ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (1061ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 5.992700 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.046300 ms MarkObjects: 5.385300 ms  DeleteObjects: 0.335200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1730ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1475ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 3.782300 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.048400 ms MarkObjects: 3.390000 ms  DeleteObjects: 0.124500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1852ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1049ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (913ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 3.989500 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.054900 ms MarkObjects: 3.610000 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 533.718135 seconds.
+  path: Assets/VoxelTerrain/Grass2 1.prefab
+  artifactKey: Guid(5135ad19a654e0e45a285b897dbdb8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grass2 1.prefab using Guid(5135ad19a654e0e45a285b897dbdb8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2804345c24a528dd19de12b5313181fc') in 0.211796 seconds 
+  Import took 0.268344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040377 seconds.
+  path: Assets/VoxelTerrain/Materials/Grass.mat
+  artifactKey: Guid(50a426b0cf415814396d7437ea95061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Materials/Grass.mat using Guid(50a426b0cf415814396d7437ea95061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab559afa0801f0579c060630f7ea456') in 0.252132 seconds 
+  Import took 0.255790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.706229 seconds.
+  path: Assets/VoxelTerrain/Grass2 1.prefab
+  artifactKey: Guid(5135ad19a654e0e45a285b897dbdb8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grass2 1.prefab using Guid(5135ad19a654e0e45a285b897dbdb8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8ba843a8c4ec9ece8f65ec09304893') in 0.018409 seconds 
+  Import took 0.022512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.249368 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 3.prefab
+  artifactKey: Guid(81ede38fa6bdaf347a5283cd5d58a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 3.prefab using Guid(81ede38fa6bdaf347a5283cd5d58a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4b1116f7e51ad84ba6c2a9a1595290') in 0.132277 seconds 
+  Import took 0.168719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.715006 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/_palmdefault.mat
+  artifactKey: Guid(5b433effc6ff02d4c9b48eec7b1e8e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/_palmdefault.mat using Guid(5b433effc6ff02d4c9b48eec7b1e8e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa4dc79811f59188e42512de7f59ea') in 0.168796 seconds 
+  Import took 0.172678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 1.mat
+  artifactKey: Guid(8fe14a05d6b634249b436bc880a1114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 1.mat using Guid(8fe14a05d6b634249b436bc880a1114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0f653bdf7a49b30368723b2a7e6ef') in 0.126817 seconds 
+  Import took 0.154275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat.mat
+  artifactKey: Guid(44519e732fe2c24428c2835599400567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat.mat using Guid(44519e732fe2c24428c2835599400567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a75bc49c68810ef65cae7f5608dbc6') in 0.024100 seconds 
+  Import took 0.027782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 1.mat
+  artifactKey: Guid(8fe14a05d6b634249b436bc880a1114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 1.mat using Guid(8fe14a05d6b634249b436bc880a1114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0f653bdf7a49b30368723b2a7e6ef') in 0.039440 seconds 
+  Import took 0.043204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat.mat
+  artifactKey: Guid(44519e732fe2c24428c2835599400567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat.mat using Guid(44519e732fe2c24428c2835599400567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a75bc49c68810ef65cae7f5608dbc6') in 0.015650 seconds 
+  Import took 0.019334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/_palmdefault.mat
+  artifactKey: Guid(5b433effc6ff02d4c9b48eec7b1e8e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/_palmdefault.mat using Guid(5b433effc6ff02d4c9b48eec7b1e8e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa4dc79811f59188e42512de7f59ea') in 0.018301 seconds 
+  Import took 0.022178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.077577 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 2.prefab
+  artifactKey: Guid(3efb217ff85a0ae44af26ebc161223f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 2.prefab using Guid(3efb217ff85a0ae44af26ebc161223f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13f6c2af52409007ac0101e52fd337') in 0.023203 seconds 
+  Import took 0.029020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002082 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 2.prefab
+  artifactKey: Guid(3efb217ff85a0ae44af26ebc161223f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/fern_v2 2.prefab using Guid(3efb217ff85a0ae44af26ebc161223f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13f6c2af52409007ac0101e52fd337') in 0.032746 seconds 
+  Import took 0.038439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.613163 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 2.mat
+  artifactKey: Guid(eaeee70a89b93e544852ef9b98b5959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/Materials/fern_v2Mat 2.mat using Guid(eaeee70a89b93e544852ef9b98b5959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f47eddcc494b185310e5fd650a57575') in 0.020493 seconds 
+  Import took 0.061233 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1556ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1360ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (605ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 3.762700 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.054700 ms MarkObjects: 3.369600 ms  DeleteObjects: 0.102200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.442644 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo01/Bamboo01.DAE
+  artifactKey: Guid(b5119379549b7e846a441600591a5324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo01/Bamboo01.DAE using Guid(b5119379549b7e846a441600591a5324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12e166c57b8e0ea184369fd06f6a232') in 0.997383 seconds 
+  Import took 1.001623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm03.dae
+  artifactKey: Guid(65fad45e683c55749839442d3dba350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm03.dae using Guid(65fad45e683c55749839442d3dba350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8557f5c76a167cb6968d0e6bc42f0843') in 1.519665 seconds 
+  Import took 1.538523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile2.prefab
+  artifactKey: Guid(ecf4f05d57d0b4d8aae8ee4c7cdc7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile2.prefab using Guid(ecf4f05d57d0b4d8aae8ee4c7cdc7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176ae3385a89bf49589500749af8db38') in 0.174102 seconds 
+  Import took 0.220275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/02/tiny_weeds_03_02.obj
+  artifactKey: Guid(4ee03714da139d2419d5330dad373b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/02/tiny_weeds_03_02.obj using Guid(4ee03714da139d2419d5330dad373b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f075a9375e68e988d347860ee7bd2b') in 0.278930 seconds 
+  Import took 0.308915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/03/trop_shrub_03.FBX
+  artifactKey: Guid(8ba4be05caf2a2b44b0fca96426b0d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/03/trop_shrub_03.FBX using Guid(8ba4be05caf2a2b44b0fca96426b0d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc105753aade724c4f4a48cb71358e19') in 0.151230 seconds 
+  Import took 0.154665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/Plank.prefab
+  artifactKey: Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/Plank.prefab using Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a50496cf65f2e7ddb6f19b6f1cfdb0') in 0.050793 seconds 
+  Import took 0.054938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile8.prefab
+  artifactKey: Guid(29ceda01ee5384847a4e46a74595d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile8.prefab using Guid(29ceda01ee5384847a4e46a74595d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb01490f9f0a86abecb127680cb0deb') in 0.026190 seconds 
+  Import took 0.031166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/01/tiny_weed_03_01.prefab
+  artifactKey: Guid(99119fe8435e7f44d95e2ad951f270c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/01/tiny_weed_03_01.prefab using Guid(99119fe8435e7f44d95e2ad951f270c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1af88f8f23159460fe7768f6cf02c75') in 0.619129 seconds 
+  Import took 0.658124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern/fern.prefab
+  artifactKey: Guid(3cfe734549b75a445944bde99507521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern/fern.prefab using Guid(3cfe734549b75a445944bde99507521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb506d69097e4098e24d8d014fb420eb') in 0.146535 seconds 
+  Import took 0.150643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/02/trop_shrub_02.obj
+  artifactKey: Guid(e9f1e6f996db91b478e939098f1f401b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/02/trop_shrub_02.obj using Guid(e9f1e6f996db91b478e939098f1f401b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771ce427e7bb18548117efae1031bb71') in 0.213242 seconds 
+  Import took 0.231990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/04/trop_shrub_04.FBX
+  artifactKey: Guid(508b802c1da1b864b9e55a70b7196580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/04/trop_shrub_04.FBX using Guid(508b802c1da1b864b9e55a70b7196580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444cf6a87cb7af3be9f9b923c3e7dba2') in 0.176651 seconds 
+  Import took 0.180024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile14.prefab
+  artifactKey: Guid(9a4dcf0d36e2c40188dbb2e26e6bebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile14.prefab using Guid(9a4dcf0d36e2c40188dbb2e26e6bebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35cd5aedbc53615cf4b8878e9a02aa') in 0.046041 seconds 
+  Import took 0.049729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/GroundTile.prefab
+  artifactKey: Guid(c1f4492f15da844ebae2767c08ef4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/GroundTile.prefab using Guid(c1f4492f15da844ebae2767c08ef4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1cc7950ba1dbce3bfb8a3997aab41d') in 0.227205 seconds 
+  Import took 0.247486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile12.prefab
+  artifactKey: Guid(02a96c93422fc486489a73449bf5dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile12.prefab using Guid(02a96c93422fc486489a73449bf5dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6a7a0b8848163cb27f30197d8ff7d5') in 0.025130 seconds 
+  Import took 0.028898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile11.prefab
+  artifactKey: Guid(d8f00be40153543d0ab1f0d99a74df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile11.prefab using Guid(d8f00be40153543d0ab1f0d99a74df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce26cf41fed0457e43d0864af591118') in 0.043183 seconds 
+  Import took 0.047815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE
+  artifactKey: Guid(a2c51031511403c43950b7d74990ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/TropicFern/TropicFern01.DAE using Guid(a2c51031511403c43950b7d74990ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa8e72a8b4bc2ebb7727d5aba32544e') in 0.280816 seconds 
+  Import took 0.298911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern/fern.obj
+  artifactKey: Guid(913a3a59dad3673459e6ed24ce313a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern/fern.obj using Guid(913a3a59dad3673459e6ed24ce313a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fa17d52ee32921bcfbc5717a99a8f4') in 0.087661 seconds 
+  Import took 0.117385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile7.prefab
+  artifactKey: Guid(7af464697e0ab41a5be05dee6f5c2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile7.prefab using Guid(7af464697e0ab41a5be05dee6f5c2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1a8b62043414ac987310a5e16ac22c') in 0.030796 seconds 
+  Import took 0.034246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/03/tiny_weeds_03_03.obj
+  artifactKey: Guid(9d6bbf38a9353ea46a0ee04c35b52f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/03/tiny_weeds_03_03.obj using Guid(9d6bbf38a9353ea46a0ee04c35b52f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fcf71f7cfd78a0a420cdada22f4e38') in 0.134080 seconds 
+  Import took 0.175348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile6.prefab
+  artifactKey: Guid(cd19d9115d9a14e4193a39766437a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile6.prefab using Guid(cd19d9115d9a14e4193a39766437a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e6b50056df0db42a70f929fc247c94') in 0.072896 seconds 
+  Import took 0.076991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/ElephantEar/ElephantEar.DAE
+  artifactKey: Guid(54bfffa4e9277404f9c12de21ae01942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/ElephantEar/ElephantEar.DAE using Guid(54bfffa4e9277404f9c12de21ae01942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0db7f28a1ae708e3933a870d8bc3128') in 0.191667 seconds 
+  Import took 0.194808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/05/trop_shrub_05.FBX
+  artifactKey: Guid(16f8f4a24bbc94b488f9778171d099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/05/trop_shrub_05.FBX using Guid(16f8f4a24bbc94b488f9778171d099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b178ac0ec97132efa8d2199ed63f98c9') in 0.131204 seconds 
+  Import took 0.134199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile3.prefab
+  artifactKey: Guid(b33f2fc7081e8459fb6d76b57d008b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile3.prefab using Guid(b33f2fc7081e8459fb6d76b57d008b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a731ed306f62c44549b933704d224c8') in 0.021827 seconds 
+  Import took 0.025039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile4.prefab
+  artifactKey: Guid(90dfa7f7fe66347389d869f92b1b6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile4.prefab using Guid(90dfa7f7fe66347389d869f92b1b6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f668a0aff940fb940a3295e9df6610') in 0.024092 seconds 
+  Import took 0.045900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE
+  artifactKey: Guid(16b0384c6ddb34345a148064e9122dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/QueensPalm/QueensPalm01.DAE using Guid(16b0384c6ddb34345a148064e9122dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbcbcd8b6e40530bd8e7f498064b6ca') in 0.225155 seconds 
+  Import took 0.229422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/NavmeshUnity/Examples/Cube.prefab
+  artifactKey: Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Cube.prefab using Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8a48962f1337f816605a2f977bce76') in 0.058300 seconds 
+  Import took 0.078979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile9.prefab
+  artifactKey: Guid(828a29cbf25f8441dabc6d11c2acb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile9.prefab using Guid(828a29cbf25f8441dabc6d11c2acb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eb30d585a0a5b56cdd77256795d5ba') in 0.026958 seconds 
+  Import took 0.030389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile15.prefab
+  artifactKey: Guid(ccf62cf2152f44840bc4038e037a7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile15.prefab using Guid(ccf62cf2152f44840bc4038e037a7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5978040bdef238b4a76628d5e9ff97d') in 0.030749 seconds 
+  Import took 0.057653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm01.DAE
+  artifactKey: Guid(0f5bce8d615545342b3e47cde4971b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm01.DAE using Guid(0f5bce8d615545342b3e47cde4971b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686abda74c82e2cbbf118eb8d1814885') in 0.705431 seconds 
+  Import took 0.725158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/01/tiny_weed_03_01.obj
+  artifactKey: Guid(eb66447ee60a59a4ba7453b66e0a59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/01/tiny_weed_03_01.obj using Guid(eb66447ee60a59a4ba7453b66e0a59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c724d39f39db153b0dc5e323146cae') in 0.203669 seconds 
+  Import took 0.248438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile10.prefab
+  artifactKey: Guid(d8eccfbc35cf449459e0a29707a8601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile10.prefab using Guid(d8eccfbc35cf449459e0a29707a8601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4067a869b3765c0c9d6420cc6d3648c4') in 0.052151 seconds 
+  Import took 0.056575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/03/trop_shrub_03.obj
+  artifactKey: Guid(2acfda7a316b89f4dadd826a9e0a1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/03/trop_shrub_03.obj using Guid(2acfda7a316b89f4dadd826a9e0a1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cfbacc2b73bd62f0cfca3a2ca56e79') in 0.284103 seconds 
+  Import took 0.309151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo02/Bamboo_02.dae
+  artifactKey: Guid(5cb7ea285e5118c489f839623827f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo02/Bamboo_02.dae using Guid(5cb7ea285e5118c489f839623827f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547d58c3be8ada00fba7ae815fcb006a') in 0.472812 seconds 
+  Import took 0.498302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/02/rock.3ds
+  artifactKey: Guid(9c984fed03258e64186bf703479b0ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/02/rock.3ds using Guid(9c984fed03258e64186bf703479b0ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c035812677eb4ff46eff3b9a09ee8a') in 0.119957 seconds 
+  Import took 0.147770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm02.DAE
+  artifactKey: Guid(08a49bb272e85564ca70f12baabf3892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/trees/Palms/Palm02.DAE using Guid(08a49bb272e85564ca70f12baabf3892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94f380a38895c4bca1b61fec6ea5c69') in 0.214499 seconds 
+  Import took 0.218006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/VoxelTerrain/Grassetc/weeds/ivy/ivy_default.FBX
+  artifactKey: Guid(dcd602067d6b7504983201fcf8b7eb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/weeds/ivy/ivy_default.FBX using Guid(dcd602067d6b7504983201fcf8b7eb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42be36dd78c11b15ab68c27eea0a6918') in 0.115788 seconds 
+  Import took 0.119413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile5.prefab
+  artifactKey: Guid(5031ae0cd920f4015b78bf393dd8d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile5.prefab using Guid(5031ae0cd920f4015b78bf393dd8d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585fbd943030ba454e40d8d4b5be1253') in 0.062985 seconds 
+  Import took 0.066849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/05/trop_shrub_05.obj
+  artifactKey: Guid(3f7b6e0df5127bc4ba2cdcf58c309004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/05/trop_shrub_05.obj using Guid(3f7b6e0df5127bc4ba2cdcf58c309004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb58c68834f2de98cd263dbbc07c7431') in 0.167664 seconds 
+  Import took 0.171053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/01/trop_shrub_01.obj
+  artifactKey: Guid(d237be4d445a0af40a9882c046652f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/01/trop_shrub_01.obj using Guid(d237be4d445a0af40a9882c046652f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2f6d2adfbd56cd13492d36ddfc95cf') in 0.199020 seconds 
+  Import took 0.202503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/01/trop_shrub_01.FBX
+  artifactKey: Guid(190169d9d3be2fc49ba698d1f3652b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/01/trop_shrub_01.FBX using Guid(190169d9d3be2fc49ba698d1f3652b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf1d6e0dd600f7726fa53be763d2bfa') in 0.238841 seconds 
+  Import took 0.242295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile13.prefab
+  artifactKey: Guid(e161c87f6a4c3413c881fcb2dfdd9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile13.prefab using Guid(e161c87f6a4c3413c881fcb2dfdd9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bcbb392d0e67a638a9ca9b18d96fb3') in 0.070389 seconds 
+  Import took 0.074137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile0.prefab
+  artifactKey: Guid(7d7ea54c92e3c4ca3bdd081adb6953e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile0.prefab using Guid(7d7ea54c92e3c4ca3bdd081adb6953e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbc322edbd4e66aa937526843e76434') in 0.032671 seconds 
+  Import took 0.039485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile1.prefab
+  artifactKey: Guid(00022e44e06ba4686a52ff33cd6af19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavmeshUnity/Examples/Prefabs/DungeonTiles/Tile1.prefab using Guid(00022e44e06ba4686a52ff33cd6af19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8513788a16ee2b68e2243074841783f') in 0.047004 seconds 
+  Import took 0.077254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/02/trop_shrub_02.FBX
+  artifactKey: Guid(9bdf562f079b1a54f995e9151c85c205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/02/trop_shrub_02.FBX using Guid(9bdf562f079b1a54f995e9151c85c205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895521dd0c40f52264822fde9173138c') in 0.116379 seconds 
+  Import took 0.120248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo02/Bamboo_02.prefab
+  artifactKey: Guid(9351cc43900607c42a1397e550272c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Bamboo02/Bamboo_02.prefab using Guid(9351cc43900607c42a1397e550272c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882428afdda6eed6b90ec0baac44e776') in 0.068050 seconds 
+  Import took 0.071394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/fern2/04/trop_shrub_04.obj
+  artifactKey: Guid(21d89cbc2347f084a8ff1f6752dcddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/fern2/04/trop_shrub_04.obj using Guid(21d89cbc2347f084a8ff1f6752dcddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1983df5c11c6bfc3e1528430d0270ddb') in 0.122897 seconds 
+  Import took 0.125940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE
+  artifactKey: Guid(e3cc70c3dd2d25d4386d3200d999cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE using Guid(e3cc70c3dd2d25d4386d3200d999cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3870fac91105023d561c14a5a25b8fb5') in 0.182823 seconds 
+  Import took 0.219008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031144 seconds.
+  path: Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE
+  artifactKey: Guid(e3cc70c3dd2d25d4386d3200d999cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VoxelTerrain/Grassetc/plants2/Plants/Phila01/Phila01.DAE using Guid(e3cc70c3dd2d25d4386d3200d999cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3870fac91105023d561c14a5a25b8fb5') in 0.038962 seconds 
+  Import took 0.043416 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
