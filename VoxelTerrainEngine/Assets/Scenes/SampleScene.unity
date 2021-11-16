@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.04338732, g: 0.044648148, b: 0.047169805, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657683, g: 0.49641192, b: 0.5748182, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -395,13 +395,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!1 &1095291591
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,8 +470,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: d83a61ff14ce72f418372d2d6032cef7, type: 3}
   - {fileID: 2800000, guid: d9e9fb97b91d62e49b70776efdaffd37, type: 3}
   - {fileID: 2800000, guid: 2fed4d1599611314a8d571bff9302e22, type: 3}
-  - {fileID: 2800000, guid: 94652c382ece85249ac62af422629612, type: 3}
-  - {fileID: 2800000, guid: 2ad04d2bc422ac34fb3689ba31b6ed19, type: 3}
+  - {fileID: 2800000, guid: d83a61ff14ce72f418372d2d6032cef7, type: 3}
+  - {fileID: 2800000, guid: 7a0c9b37b1384f049850a0ba5a8be390, type: 3}
   - {fileID: 2800000, guid: f4c98f2311db7d2409d3f0660eb38f3e, type: 3}
   - {fileID: 2800000, guid: 94652c382ece85249ac62af422629612, type: 3}
   - {fileID: 2800000, guid: 17ba6e4431c36c84295feea47e33436c, type: 3}
@@ -483,12 +483,12 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
+  - {fileID: 2800000, guid: 58621920f62a22a4686683a0af59f5a4, type: 3}
+  - {fileID: 2800000, guid: 58621920f62a22a4686683a0af59f5a4, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
   - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
-  - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
-  - {fileID: 2800000, guid: 512a4948a5d59d54a9f8a4c36eda728d, type: 3}
-  SnowLine: 402
+  SnowLine: 450
   grassFrequency: 5
   TreeFrequency: 5
   minLod: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
   MaxRocks: 0
   MakeCaves: 0
   lavaParticles:
-  - {fileID: 149316, guid: 5f66f8e02dea82e4781c20059df75cd2, type: 3}
+  - {fileID: 8081676716379795333, guid: eb2680a8bfa75344884e9663517acff0, type: 3}
   TreesGrass:
   - {fileID: 149316, guid: 5f66f8e02dea82e4781c20059df75cd2, type: 3}
   TreesForest:

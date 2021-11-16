@@ -30,6 +30,7 @@
 .vscode/
 .ProjectSettings/
 .Logs/
+.Logs
 .obj
 .UserSettings/
 .Packages/

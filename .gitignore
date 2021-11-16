@@ -68,3 +68,13 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+VoxelTerrainEngine/Logs/AssetImportWorker0.log
+*.log
+*.log
+VoxelTerrainEngine/Logs/AssetImportWorker0.log
+VoxelTerrainEngine/Logs/AssetImportWorker0-prev.log
+VoxelTerrainEngine/Logs/shadercompiler-AssetImportWorker0.log
+VoxelTerrainEngine/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+VoxelTerrainEngine/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+VoxelTerrainEngine/Logs/shadercompiler-UnityShaderCompiler.exe3.log
+*.log
