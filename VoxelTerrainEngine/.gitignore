@@ -27,11 +27,11 @@
 
 #Visual Studio Code directory
 .vscode/
-.ProjectSettings
-.Logs
+.ProjectSettings/
+.Logs/
 .obj
-.UserSettings
-.Packages
+.UserSettings/
+.Packages/
 # Gradle cache directory
 .gradle/
 
