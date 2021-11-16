@@ -758,6 +758,10 @@
       <Project>{42F4094B-E184-8D8C-118A-5217D462A28D}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{A2875D52-25E6-8CCE-D0E3-855D34898146}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{ED0EB9C1-6998-A9E7-949C-C7D8B3C4BFB2}</Project>
       <Name>NavMeshComponentsEditor</Name>
@@ -765,10 +769,6 @@
     <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
       <Project>{951DAC98-8E9D-1102-62AB-48702E1BAAB6}</Project>
       <Name>NavMeshComponentsExamplesEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{A2875D52-25E6-8CCE-D0E3-855D34898146}</Project>
-      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
